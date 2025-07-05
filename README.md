@@ -1,4 +1,5 @@
-Here’s an updated **README.md** that folds in the live‑demo link, cleans up a few headings, and keeps your friendly workshop vibe intact. Feel free to copy‑paste it straight into your repository.
+
+---
 
 ````markdown
 # 🤖 Chat App with Google Gemini API — GDG Workshop Project
@@ -16,19 +17,19 @@ This repo holds the source for a simple AI‑powered chat application built duri
 
 ## 🛠️ Tech Stack
 
-| Purpose | Tech |
-|---------|------|
-| **Core Lang** | Python 🐍 |
-| **UI** | Streamlit 📺 |
-| **AI** | Google Gemini API 🤖 |
-| **Hosting** | Google Cloud Run ☁️ |
-| **Container** | Docker 🐳 |
+| Purpose      | Tech                  |
+|--------------|-----------------------|
+| **Core Lang**| Python 🐍             |
+| **UI**       | Streamlit 📺          |
+| **AI**       | Google Gemini API 🤖  |
+| **Hosting**  | Google Cloud Run ☁️   |
+| **Container**| Docker 🐳             |
 
 ---
 
 ## 📸 Live Demo
 
-> 🌐 **Try it here →** [gdg‑gemini‑workshop.streamlit.app](https://gdg-gemini-workshop.streamlit.app/)
+> 🌐 **Try it here →** [gdg-gemini-workshop.streamlit.app](https://gdg-gemini-workshop.streamlit.app/)
 
 ---
 
@@ -40,7 +41,7 @@ This repo holds the source for a simple AI‑powered chat application built duri
    cd GDG-Gemini-Workshop
 ````
 
-2. **(Optional) Create a virtual env**
+2. **(Optional) Create a virtual env**
 
    ```bash
    python -m venv venv
@@ -73,7 +74,8 @@ This repo holds the source for a simple AI‑powered chat application built duri
 
 ## ☁️ Deployment Notes
 
-The app is containerized via **Docker** and can be shipped to **Google Cloud Run** in a single command. See the `Dockerfile` and `cloudrun.md` (if added) for step‑by‑step deployment instructions.
+The app is containerized via **Docker** and can be shipped to **Google Cloud Run** in a single command.
+See the `Dockerfile` and deployment instructions (if added) for step‑by‑step guidance.
 
 ---
 
@@ -85,15 +87,14 @@ Big thanks to **GDG Conestoga** and **@Anish Reddy** for organizing and guid
 
 ## 📬 Connect
 
-|                      |                                                                                    |
-| -------------------- | ---------------------------------------------------------------------------------- |
-| 🔗 LinkedIn          | [https://linkedin.com/in/janjanamaditya](https://linkedin.com/in/janjanamaditya)   |
-| 🌐 Portfolio / Links | [https://adityajanjanam.com/adityajanjanam](https://adityajanjanam.com/)               |
-| ☕ Buy Me a Coffee    | [https://buymeacoffee.com/adityajanjanam](https://buymeacoffee.com/adityajanjanam) |
+|                      |                                                                            |
+| -------------------- | -------------------------------------------------------------------------- |
+| 🔗 LinkedIn          | [linkedin.com/in/janjanamaditya](https://linkedin.com/in/janjanamaditya)   |
+| 🌐 Portfolio / Links | [adityajanjanam.com](https://adityajanjanam.com/)                          |
+| ☕ Buy Me a Coffee    | [buymeacoffee.com/adityajanjanam](https://buymeacoffee.com/adityajanjanam) |
 
 ---
 
 > 🚧 **Workshop demo project** — fork away and add new features or a snazzy UI!
 
 ```
-
